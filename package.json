@@ -1,0 +1,11 @@
+{
+  "name": "serverless-express-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Example serverless API with react client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Fisher",
+  "license": "ISC"
+}
