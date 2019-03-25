@@ -18,7 +18,7 @@ provider:
         - dynamodb:UpdateItem
         - dynamodb:DeleteItem
       Resource:
-        - { "Fn::GetAtt": ["TableTalkerDynamoDBTable", "Arn"] }
+        - { "Fn::GetAtt": ["ExampleAppDynamoDBTable", "Arn"] }
 
   environment:
     EXAMPLE_APP_TABLE: ${self:custom.tableName}
